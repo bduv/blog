@@ -99,3 +99,26 @@ blockquote{
     margin:0;
     font-size:2rem;
 }
+
+.md-main {
+  max-width: 900px;
+  margin: auto;
+}
+
+h1, h2 {
+  font-weight: 700;
+}
+
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 12px;
+}
+
+.stat-card {
+  padding: 20px;
+  background: #111;
+  border-radius: 12px;
+  color: white;
+  text-align: center;
+}
