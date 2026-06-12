@@ -1,7 +1,7 @@
-site_name: Mon Blog
+﻿site_name: Mon Blog
 
-site_description: Blog personnel moderne
-site_author: Votre Nom
+site_description: Economie, Afrique, Recherche et Développement
+site_author: bduv
 
 theme:
   name: material
@@ -24,7 +24,8 @@ markdown_extensions:
   - md_in_html
 
 nav:
-  - Home: index.md
+
+  - Accueil: index.md
 
   - Articles:
       - articles/index.md
@@ -32,5 +33,41 @@ nav:
   - Podcasts:
       - podcasts/index.md
 
-  - Videos:
+  - Vidéos:
       - videos/index.md
+
+  - Afrique:
+      - afrique/index.md
+
+  - Développement économique:
+      - developpement/index.md
+
+  - Économie islamique:
+      - economie-islamique/index.md
+
+  - Agriculture:
+      - agriculture/index.md
+
+  - Fiscalité:
+      - fiscalite/index.md
+
+  - Économétrie:
+      - econometrie/index.md
+
+  - Politiques publiques:
+      - politiques-publiques/index.md
+
+  - Recherche:
+      - recherche/index.md
+
+  - Ressources pédagogiques:
+      - ressources/index.md
+
+  - Livres:
+      - livres/index.md
+
+  - Réflexions:
+      - reflexions/index.md
+
+  - À propos:
+      - a-propos.md
