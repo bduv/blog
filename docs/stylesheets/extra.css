@@ -1,21 +1,37 @@
 :root{
-    --md-text-font: 'Inter';
+    --md-text-font: Inter, sans-serif;
 }
 
 .md-typeset{
     font-size:1.1rem;
-    line-height:1.9;
+    line-height:1.85;
 }
 
 .md-content{
-    max-width:850px;
+    max-width:900px;
     margin:auto;
 }
 
 img{
-    border-radius:12px;
+    border-radius:16px;
 }
 
 .md-header{
-    backdrop-filter:blur(10px);
+    backdrop-filter:blur(12px);
+}
+
+.md-grid{
+    max-width:1400px;
+}
+
+h1{
+    font-weight:800;
+}
+
+h2{
+    margin-top:2rem;
+}
+
+blockquote{
+    border-left:4px solid #448aff;
 }
