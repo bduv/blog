@@ -8,39 +8,50 @@ Je m'intéresse à l'économie du développement, à l'économie islamique, aux 
 
 ## Domaines principaux
 
-### Afrique
+<div class="grid-cards">
 
-Transformation économique, intégration régionale, industrialisation, gouvernance et développement.
+<div class="card">
+<h3>🌍 Afrique</h3>
+<p>Transformation économique, intégration régionale, industrialisation et développement.</p>
+</div>
 
-### Agriculture
+<div class="card">
+<h3>🌾 Agriculture</h3>
+<p>Productivité agricole, sécurité alimentaire et développement rural.</p>
+</div>
 
-Productivité agricole, sécurité alimentaire, développement rural et transformation des chaînes de valeur.
+<div class="card">
+<h3>☪️ Économie islamique</h3>
+<p>Finance islamique, zakat, waqf et justice économique.</p>
+</div>
 
-### Économie islamique
+<div class="card">
+<h3>📊 Économétrie</h3>
+<p>Analyse quantitative, prévisions, séries temporelles et modélisation.</p>
+</div>
 
-Finance islamique, zakat, waqf, justice économique et pensée économique islamique.
+<div class="card">
+<h3>🏛 Fiscalité</h3>
+<p>Finances publiques, gouvernance fiscale et développement.</p>
+</div>
 
-### Fiscalité
+<div class="card">
+<h3>📚 Histoire</h3>
+<p>Histoire économique, institutions et trajectoires de développement.</p>
+</div>
 
-Fiscalité du développement, finances publiques, gouvernance fiscale et mobilisation des ressources.
+<div class="card">
+<h3>👥 Anthropologie</h3>
+<p>Étude des sociétés, des cultures et des dynamiques sociales.</p>
+</div>
 
-### Économétrie
+<div class="card">
+<h3>🎓 Ressources académiques</h3>
+<p>Notes de lecture, méthodologie et outils pédagogiques.</p>
+</div>
 
-Analyse quantitative, séries temporelles, modélisation économique et outils statistiques.
+</div>
 
-### Histoire
-
-Histoire économique, histoire des sociétés africaines et évolution des institutions.
-
-### Anthropologie
-
-Étude des sociétés, des cultures et des dynamiques sociales liées au développement.
-
-### Ressources académiques
-
-Méthodologie, notes de lecture, synthèses d'ouvrages et ressources pédagogiques.
-
----
 
 ## Objectif du site
 

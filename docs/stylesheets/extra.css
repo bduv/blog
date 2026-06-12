@@ -35,3 +35,48 @@ h2{
 blockquote{
     border-left:4px solid #448aff;
 }
+
+/* ===== CARDS ===== */
+
+.grid-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1.2rem;
+    margin-top: 2rem;
+}
+
+.card {
+    border: 1px solid rgba(127,127,127,0.15);
+    border-radius: 18px;
+    padding: 1.4rem;
+    transition: all .25s ease;
+    background: rgba(255,255,255,0.03);
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 30px rgba(0,0,0,.12);
+}
+
+.card h3 {
+    margin-top: 0;
+}
+
+.card p {
+    margin-bottom: 0;
+}
+
+.hero {
+    text-align: center;
+    padding: 2rem 0;
+}
+
+.hero h1 {
+    font-size: 2.8rem;
+    margin-bottom: 0.5rem;
+}
+
+.hero p {
+    font-size: 1.15rem;
+    opacity: 0.85;
+}
