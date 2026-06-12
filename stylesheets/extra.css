@@ -80,3 +80,22 @@ blockquote{
     font-size: 1.15rem;
     opacity: 0.85;
 }
+
+.stats-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    gap:1rem;
+    margin:2rem 0;
+}
+
+.stat-card{
+    border-radius:18px;
+    padding:1.5rem;
+    text-align:center;
+    border:1px solid rgba(127,127,127,.15);
+}
+
+.stat-card h2{
+    margin:0;
+    font-size:2rem;
+}
