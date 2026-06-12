@@ -1,0 +1,6 @@
+mkdocs
+mkdocs-material
+mkdocs-rss-plugin
+mkdocs-video
+mkdocs-git-revision-date-localized-plugin
+pillow

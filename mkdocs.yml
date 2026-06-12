@@ -1,0 +1,36 @@
+site_name: Mon Blog
+
+site_description: Blog personnel moderne
+site_author: Votre Nom
+
+theme:
+  name: material
+
+  features:
+    - navigation.tabs
+    - navigation.instant
+    - search.highlight
+    - content.code.copy
+
+extra_css:
+  - stylesheets/extra.css
+
+plugins:
+  - search
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+
+nav:
+  - Home: index.md
+
+  - Articles:
+      - articles/index.md
+
+  - Podcasts:
+      - podcasts/index.md
+
+  - Videos:
+      - videos/index.md

@@ -1,0 +1,21 @@
+:root{
+    --md-text-font: 'Inter';
+}
+
+.md-typeset{
+    font-size:1.1rem;
+    line-height:1.9;
+}
+
+.md-content{
+    max-width:850px;
+    margin:auto;
+}
+
+img{
+    border-radius:12px;
+}
+
+.md-header{
+    backdrop-filter:blur(10px);
+}
