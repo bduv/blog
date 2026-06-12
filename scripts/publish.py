@@ -1,22 +1,44 @@
-from datetime import datetime
 from pathlib import Path
+from datetime import datetime
+import re
+import unicodedata
 
-title = input('Titre : ')
+title = input("Titre : ")
 
-slug = title.lower().replace(' ','-')
+# Conversion en slug sans accents
+slug = unicodedata.normalize("NFKD", title)
+slug = slug.encode("ascii", "ignore").decode("ascii")
+slug = slug.lower()
+slug = re.sub(r"[^a-z0-9\s-]", "", slug)
+slug = re.sub(r"[\s-]+", "-", slug).strip("-")
 
-today = datetime.now().strftime('%Y-%m-%d')
+today = datetime.now().strftime("%Y-%m-%d")
 
-content = f'''# {title}
+content = f"""---
+title: {title}
+date: {today}
+description:
+---
 
-Publié le {today}
+# {title}
 
-Votre contenu ici...
-'''
+Votre contenu ici.
+"""
 
-path = Path('../docs/articles') / f'{slug}.md'
+# Racine du projet
+project_root = Path(__file__).resolve().parent.parent
 
-with open(path,'w',encoding='utf-8') as f:
+# Dossier des articles
+articles_dir = project_root / "docs" / "articles"
+articles_dir.mkdir(parents=True, exist_ok=True)
+
+# Nom du fichier
+file_path = articles_dir / f"{slug}.md"
+
+# Ã‰criture
+with open(file_path, "w", encoding="utf-8") as f:
     f.write(content)
 
-print('Article créé :', path)
+print()
+print("Article crÃ©Ã© avec succÃ¨s :")
+print(file_path)

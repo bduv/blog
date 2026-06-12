@@ -1,5 +1,19 @@
-﻿# livres
+﻿# Bibliothèque
 
-Cette section est en cours de construction.
+Bienvenue dans ma bibliothèque de lecture.
 
-Les prochains contenus seront publiés ici.
+Cette section rassemble mes notes,
+résumés, réflexions et analyses
+sur les ouvrages que j'étudie.
+
+## Catégories
+
+- Économie
+- Afrique
+- Histoire
+- Islam
+- Agriculture
+- Méthodologie
+- Politique
+- Philosophie
+

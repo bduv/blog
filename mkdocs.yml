@@ -69,7 +69,24 @@ nav:
   - Ressources pédagogiques:
       - ressources/index.md
 
+plugins:
+  - search
+
+theme:
+  name: material
+
+  features:
+    - search.suggest
+    - search.highlight
+    - search.share
+    - navigation.instant
+    - navigation.tabs
+    - navigation.top
+
   - Livres:
+      - livres/index.md
+
+  - Bibliothèque:
       - livres/index.md
 
   - Réflexions:
