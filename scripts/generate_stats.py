@@ -1,14 +1,19 @@
 from pathlib import Path
 
-ROOT = Path("../docs")
+project_root = Path(__file__).resolve().parent.parent
 
-articles = len(list(ROOT.rglob("*.md")))
+docs_dir = project_root / "docs"
+includes_dir = docs_dir / "includes"
 
-output = f"""
+includes_dir.mkdir(parents=True, exist_ok=True)
+
+pages = len(list(docs_dir.rglob("*.md")))
+
+content = f"""
 <div class="stats-grid">
 
 <div class="stat-card">
-<h2>{articles}</h2>
+<h2>{pages}</h2>
 <p>Pages publiées</p>
 </div>
 
@@ -20,9 +25,11 @@ output = f"""
 </div>
 """
 
-(Path("../docs/includes")).mkdir(exist_ok=True)
-
-with open("../docs/includes/stats.md", "w", encoding="utf-8") as f:
-    f.write(output)
+with open(
+    includes_dir / "stats.md",
+    "w",
+    encoding="utf-8"
+) as f:
+    f.write(content)
 
 print("Statistiques générées.")

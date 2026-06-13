@@ -1,19 +1,17 @@
 ﻿site_name: Mon Blog
-
 site_description: Economie, Afrique, Recherche et Développement
 site_author: bduv
 
 theme:
   name: material
-
   features:
     - navigation.tabs
     - navigation.instant
+    - navigation.top
     - search.highlight
+    - search.suggest
+    - search.share
     - content.code.copy
-
-extra_css:
-  - stylesheets/extra.css
 
 plugins:
   - search
@@ -22,9 +20,12 @@ markdown_extensions:
   - admonition
   - attr_list
   - md_in_html
+  - pymdownx.snippets
+
+extra_css:
+  - stylesheets/extra.css
 
 nav:
-
   - Accueil: index.md
 
   - Articles:
@@ -69,20 +70,6 @@ nav:
   - Ressources pédagogiques:
       - ressources/index.md
 
-plugins:
-  - search
-
-theme:
-  name: material
-
-  features:
-    - search.suggest
-    - search.highlight
-    - search.share
-    - navigation.instant
-    - navigation.tabs
-    - navigation.top
-
   - Livres:
       - livres/index.md
 
@@ -94,3 +81,6 @@ theme:
 
   - À propos:
       - a-propos.md
+
+not_in_nav: |
+  *

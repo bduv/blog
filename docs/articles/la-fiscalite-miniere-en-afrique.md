@@ -1,9 +1,9 @@
----
-title: La fiscalité minière en Afrique
+﻿---
+title: La fiscalitÃ© miniÃ¨re en Afrique
 date: 2026-06-12
 description:
 ---
 
-# La fiscalité minière en Afrique
+# La fiscalitÃ© miniÃ¨re en Afrique
 
 Votre contenu ici.

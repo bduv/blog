@@ -1,56 +1,60 @@
-﻿# Bienvenue
+﻿# AFRIKNOMICS
 
-![Photo](assets/images/profil.jpg)
+## Comprendre l'économie africaine pour mieux construire son avenir
 
-## Étudiant · Chercheur · Analyste
+Afriknomics est un média indépendant consacré à :
 
-Je travaille principalement sur :
-
-- l'économie du développement ;
+- l'économie africaine ;
 - la fiscalité ;
 - l'agriculture ;
+- le développement ;
 - l'économétrie ;
-- l'Afrique ;
 - l'économie islamique.
 
 ---
 
-## Statistiques du site
+## À la Une
 
---8<-- "includes/stats.md"
+Découvrez nos analyses les plus récentes.
+
+<div class="cards-grid">
+
+<div class="card">
+<h3>🌍 Afrique</h3>
+<p>Analyses économiques africaines.</p>
+</div>
+
+<div class="card">
+<h3>🏛 Fiscalité</h3>
+<p>Fiscalité minière, TVA, politiques publiques.</p>
+</div>
+
+<div class="card">
+<h3>🌾 Agriculture</h3>
+<p>Transformation agricole et sécurité alimentaire.</p>
+</div>
+
+<div class="card">
+<h3>📊 Data</h3>
+<p>Économétrie et analyse quantitative.</p>
+</div>
+
+</div>
+
+## 📊 Statistiques
+--8<-- "_includes/stats.md"
 
 ---
 
-## Derniers articles
-
---8<-- "includes/latest_articles.md"
-
----
-
-## Dernières lectures
-
---8<-- "includes/latest_books.md"
+## 📰 Derniers articles
+--8<-- "_includes/latest_articles.md"
 
 ---
 
-## Derniers podcasts
-
-- Podcast 001
-- Podcast 002
-- Podcast 003
+## 📚 Dernières lectures
+--8<-- "_includes/latest_books.md"
 
 ---
 
-## Domaines d'expertise
-
-🌍 Afrique
-
-🌾 Agriculture
-
-☪️ Économie islamique
-
-📊 Économétrie
-
-🏛 Fiscalité
-
-📚 Recherche académique
+## 🎧 Podcasts récents
+--8<-- "_includes/latest_podcasts.md"

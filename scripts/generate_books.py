@@ -23,8 +23,7 @@ for book in books[:8]:
     title = book.stem.replace("-", " ").title()
 
     rel = str(book.relative_to("docs")).replace("\\", "/")
-
-    content += f"- [{title}](/{rel})\n"
+    content += f"- [{title}]({rel})\n"
 
 Path("docs/includes").mkdir(exist_ok=True)
 
